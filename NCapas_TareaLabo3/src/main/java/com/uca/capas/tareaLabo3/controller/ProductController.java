@@ -19,6 +19,7 @@ public class ProductController {
 	public ModelAndView comprarProducto() {
 		
 		ModelAndView mav = new ModelAndView();
+		productos.clear();
 		productos.add(new Product(0, "Fortnite", 40));
 		productos.add(new Product(1, "COD Warzone", 20));
 		productos.add(new Product(2, "GTA SA", 10));
